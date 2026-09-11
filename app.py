@@ -9,14 +9,13 @@ import streamlit as st
 
 st.set_page_config(
     page_title="Bangladesh Social Data Atlas",
-    page_icon="🇧🇩",
     layout="wide",
 )
 
 DATA_PATH = Path("data/bangladesh_social_indicators_2019.csv")
 GEOJSON_PATH = Path("data/bangladesh_districts.geojson")
 
-st.title("🇧🇩 Bangladesh Social Data Atlas")
+st.title("Bangladesh Social Data Atlas")
 st.caption(
     "Exploring district-level patterns in child marriage and participation in organized learning"
 )
